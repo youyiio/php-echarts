@@ -1,0 +1,15 @@
+# all project
+.idea
+composer.lock
+*.log
+.svn
+
+# php & thinkphp
+vendor/*
+thinkphp
+
+# my project
+examples/log
+examples/html
+examples
+src/_Doc
