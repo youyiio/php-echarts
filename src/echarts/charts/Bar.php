@@ -9,6 +9,7 @@ namespace beyong\echarts\charts;
 
 class Bar extends Chart
 {
+
     function __construct()
     {
         $this->type = 'bar';

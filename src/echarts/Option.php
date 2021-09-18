@@ -7,27 +7,23 @@
  */
 namespace beyong\echarts;
 
+use beyong\echarts\charts\Chart;
 use beyong\echarts\options\Title;
 use beyong\echarts\options\Toolbox;
 use beyong\echarts\options\Tooltip;
 use beyong\echarts\options\XAxis;
 use beyong\echarts\options\YAxis;
 use beyong\echarts\options\DataZoom;
-use Hisune\EchartsPHP\Doc\IDE\Aria\Series;
+use beyong\echarts\options\Legend;
 
 /**
  * ECharts Option class
  * 
  */
-class Option 
+class Option extends Property
 {
-    private $_title;
-    private $_tooltip;
-    private $_toolbox;
-    private $_xAxis;
-    private $_yAxis;
 
-    private $_option = array();
+    //public $_options = array();
 
     function __construct()
     {
@@ -36,10 +32,10 @@ class Option
     public function title($title)
     {
         if (is_array($title)) {
-            $title = new Title();
+            $title = new Title($title);
         }
 
-        $this->_option['title'] = $title;
+        $this->_options['title'] = $title;
         return $this;
     }
 
@@ -49,7 +45,17 @@ class Option
             $tooltip = new Tooltip($tooltip);
         }
 
-        $this->_option['tooltip'] = $tooltip;
+        $this->_options['tooltip'] = $tooltip;
+        return $this;
+    }
+
+    public function legend($legend)
+    {
+        if (is_array($legend)) {
+            $legend = new Legend($legend);
+        }
+
+        $this->_options['legend'] = $legend;
         return $this;
     }
 
@@ -59,7 +65,7 @@ class Option
             $toolbox = new Toolbox($toolbox);
         }
 
-        $this->_option['toolbox'] = $toolbox;
+        $this->_options['toolbox'] = $toolbox;
         return $this;
     }
 
@@ -69,7 +75,7 @@ class Option
             $xAxis = new XAxis($xAxis);
         }
 
-        $this->_option['xAxis'] = $xAxis;
+        $this->_options['xAxis'] = $xAxis;
         return $this;
     }
 
@@ -79,7 +85,7 @@ class Option
             $yAxis = new YAxis($yAxis);
         }
 
-        $this->_option['yAxis'] = $yAxis;
+        $this->_options['yAxis'] = $yAxis;
         return $this;
     }
 
@@ -89,28 +95,20 @@ class Option
             $dataZoom = new DataZoom($dataZoom);
         }
 
-        $this->_option['dataZoom'] = $dataZoom;
+        $this->_options['dataZoom'] = $dataZoom;
         return $this;
     }
 
-    public function series($series)
+    public function series(array $charts)
     {
-        if (is_array($series)) {
-            $series = new Series($series);
-        }
-
-        $this->_option['series'] = $series;
+        $this->_options['series'] = $charts;
         return $this;
     }
 
-    /**
-     * 输出json格式的option
-     *
-     * @return string
-     */
-    public function toJson()
+    public function addSeries(Chart $series)
     {
-        $jsonStr = json_encode($this->_option, JSON_FORCE_OBJECT);
-        return $jsonStr;
+        $this->_options['series'][] = $series;
+        return $this;
     }
+
 }

@@ -9,6 +9,7 @@ vendor/*
 thinkphp
 
 # my project
+composer.lock
 examples/log
 examples/html
 examples

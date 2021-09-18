@@ -7,6 +7,8 @@
  */
 namespace beyong\echarts\charts;
 
+use beyong\echarts\Property;
+
 /**
 * 图表名称
 * @property string $name
@@ -18,7 +20,8 @@ namespace beyong\echarts\charts;
 * @property array $data
 * */
 
-abstract class Chart 
+abstract class Chart extends Property
 {
-
+    
+    
 }

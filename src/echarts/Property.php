@@ -8,10 +8,10 @@
 namespace beyong\echarts;
 
 
-class Property implements \ArrayAccess
+class Property implements \ArrayAccess, \JsonSerializable
 {
 
-    public $_options = [];
+    public $_options = array();
 
     public function __set($offset, $value)
     {
@@ -23,6 +23,7 @@ class Property implements \ArrayAccess
         return $this->offsetGet($offset);
     }
 
+    //ArrayAccess4个接口实现
     public function offsetExists($offset)
     {
         return isset($this->_options[$offset]);
@@ -49,4 +50,9 @@ class Property implements \ArrayAccess
         unset($this->_options[$offset]);
     }
 
+    //JsonSerializable的1个接口实现
+    public function jsonSerialize()
+    {
+        return $this->_options;
+    }
 }
