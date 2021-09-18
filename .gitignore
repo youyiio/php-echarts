@@ -12,5 +12,4 @@ thinkphp
 composer.lock
 examples/log
 examples/html
-examples
 src/_Doc
