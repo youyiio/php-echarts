@@ -1,4 +1,9 @@
 <?php
+/**
+ * 测试准备,php-echarts根目录下
+ * > composer update
+ * > php example\bar.php
+ */
 header('Content-Type: text/html; charset=utf-8');
 if (is_file('vendor/autoload.php')) {
     require('vendor/autoload.php');
@@ -30,4 +35,9 @@ $echarts->option($option);
 $content = $echarts->render();
 echo $content;
 
-file_put_contents(__DIR__ . '/log/bar.html', $content);
+
+//控制台运行
+if (substr(PHP_SAPI_NAME(), 0, 3) == 'cli') {
+    file_put_contents(__DIR__ . '/log/bar.html', $content);
+    exec("start " . __DIR__ . '/log/bar.html'); //启动网页
+}

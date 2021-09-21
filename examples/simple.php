@@ -16,11 +16,14 @@ use beyong\echarts\ECharts;
 use beyong\echarts\options\YAxis;
 use beyong\echarts\Option;
 use beyong\echarts\charts\Bar;
+use beyong\echarts\options\Title;
 
 $echarts = ECharts::init("#myChart");
 
 $option = new Option();
-$option->title(['text' => 'ECharts 入门示例']);
+$title = new Title();
+$title->text = 'ECharts 入门示例@@';
+$option->title($title);
 $option->xAxis(["data" => ['衬衫', '羊毛衫', '雪纺衫', '裤子', '高跟鞋', '袜子']]);
 $option->yAxis([]);
 
@@ -33,4 +36,8 @@ $echarts->option($option);
 $content = $echarts->render();
 echo $content;
 
-file_put_contents(__DIR__ . '/log/simple.html', $content);
+//控制台运行
+if (substr(PHP_SAPI_NAME(), 0, 3) == 'cli') {
+    file_put_contents(__DIR__ . '/log/simple.html', $content);
+    exec("start " . __DIR__ . '/log/simple.html'); //启动网页
+}

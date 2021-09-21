@@ -53,6 +53,9 @@ class Property implements \ArrayAccess, \JsonSerializable
     //JsonSerializable的1个接口实现
     public function jsonSerialize()
     {
+        if (count($this->_options) > 1) {
+            unset($this->_options["_"]);
+        }
         return $this->_options;
     }
 }

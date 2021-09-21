@@ -32,4 +32,8 @@ $echarts->option($option);
 $content = $echarts->render();
 echo $content;
 
-file_put_contents(__DIR__ . '/log/mixed.html', $content);
+//控制台运行
+if (substr(PHP_SAPI_NAME(), 0, 3) == 'cli') {
+    file_put_contents(__DIR__ . '/log/mixed.html', $content);
+    exec("start " . __DIR__ . '/log/mixed.html'); //启动网页
+}

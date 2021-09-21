@@ -12,4 +12,4 @@ thinkphp
 composer.lock
 examples/log
 examples/html
-src/_Doc
+src/echarts/AutoGenerate.php
