@@ -9,10 +9,10 @@ namespace beyong\echarts\options\geo;
 use beyong\echarts\Property;
 
 /**
- * @property blur\Label $label
+ * @property array $label
  *    
  *
- * @property blur\ItemStyle $itemStyle
+ * @property array $itemStyle
  *    
  *
  * 

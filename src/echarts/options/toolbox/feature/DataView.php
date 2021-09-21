@@ -18,7 +18,7 @@ use beyong\echarts\Property;
  * @property string $icon
  *    
  *
- * @property dataview\IconStyle $iconStyle
+ * @property array $iconStyle
  *    
  *
  * @property dataview\Emphasis $emphasis

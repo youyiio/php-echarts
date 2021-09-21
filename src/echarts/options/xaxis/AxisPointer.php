@@ -21,13 +21,13 @@ use beyong\echarts\Property;
  * @property integer $z
  *    
  *
- * @property axispointer\Label $label
+ * @property array $label
  *    
  *
- * @property axispointer\LineStyle $lineStyle
+ * @property array $lineStyle
  *    
  *
- * @property axispointer\ShadowStyle $shadowStyle
+ * @property array $shadowStyle
  *    
  *
  * @property boolean $triggerTooltip Default: true
@@ -39,7 +39,7 @@ use beyong\echarts\Property;
  * @property boolean $status
  *    
  *
- * @property axispointer\Handle $handle
+ * @property array $handle
  *    
  *
  * 

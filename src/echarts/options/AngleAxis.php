@@ -57,31 +57,31 @@ use beyong\echarts\Property;
  * @property boolean $triggerEvent Default: false
  *    
  *
- * @property angleaxis\AxisLine $axisLine
+ * @property array $axisLine
  *    
  *
- * @property angleaxis\AxisTick $axisTick
+ * @property array $axisTick
  *    
  *
- * @property angleaxis\MinorTick $minorTick
+ * @property array $minorTick
  *    
  *
- * @property angleaxis\AxisLabel $axisLabel
+ * @property array $axisLabel
  *    
  *
- * @property angleaxis\SplitLine $splitLine
+ * @property array $splitLine
  *    
  *
- * @property angleaxis\MinorSplitLine $minorSplitLine
+ * @property array $minorSplitLine
  *    
  *
- * @property angleaxis\SplitArea $splitArea
+ * @property array $splitArea
  *    
  *
- * @property angleaxis\Data $data
+ * @property array $data
  *    
  *
- * @property angleaxis\AxisPointer $axisPointer
+ * @property array $axisPointer
  *    
  *
  * @property integer $zlevel Default: 0

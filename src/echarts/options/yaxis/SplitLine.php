@@ -15,7 +15,7 @@ use beyong\echarts\Property;
  * @property integer|callable $interval Default: 'auto'
  *    
  *
- * @property splitline\LineStyle $lineStyle
+ * @property array $lineStyle
  *    
  *
  * 

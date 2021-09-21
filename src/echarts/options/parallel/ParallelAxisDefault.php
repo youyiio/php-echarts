@@ -18,7 +18,7 @@ use beyong\echarts\Property;
  * @property string $nameLocation Default: 'end'
  *    
  *
- * @property parallelaxisdefault\NameTextStyle $nameTextStyle
+ * @property array $nameTextStyle
  *    
  *
  * @property integer $nameGap Default: 15
@@ -63,19 +63,19 @@ use beyong\echarts\Property;
  * @property boolean $triggerEvent Default: false
  *    
  *
- * @property parallelaxisdefault\AxisLine $axisLine
+ * @property array $axisLine
  *    
  *
- * @property parallelaxisdefault\AxisTick $axisTick
+ * @property array $axisTick
  *    
  *
- * @property parallelaxisdefault\MinorTick $minorTick
+ * @property array $minorTick
  *    
  *
- * @property parallelaxisdefault\AxisLabel $axisLabel
+ * @property array $axisLabel
  *    
  *
- * @property parallelaxisdefault\Data $data
+ * @property array $data
  *    
  *
  * 

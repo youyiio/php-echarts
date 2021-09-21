@@ -39,7 +39,7 @@ use beyong\echarts\Property;
  * @property string $nameLocation Default: 'end'
  *    
  *
- * @property yaxis\NameTextStyle $nameTextStyle
+ * @property array $nameTextStyle
  *    
  *
  * @property integer $nameGap Default: 15
@@ -84,31 +84,31 @@ use beyong\echarts\Property;
  * @property boolean $triggerEvent Default: false
  *    
  *
- * @property yaxis\AxisLine $axisLine
+ * @property array $axisLine
  *    
  *
- * @property yaxis\AxisTick $axisTick
+ * @property array $axisTick
  *    
  *
- * @property yaxis\MinorTick $minorTick
+ * @property array $minorTick
  *    
  *
- * @property yaxis\AxisLabel $axisLabel
+ * @property array $axisLabel
  *    
  *
- * @property yaxis\SplitLine $splitLine
+ * @property array $splitLine
  *    
  *
- * @property yaxis\MinorSplitLine $minorSplitLine
+ * @property array $minorSplitLine
  *    
  *
- * @property yaxis\SplitArea $splitArea
+ * @property array $splitArea
  *    
  *
- * @property yaxis\Data $data
+ * @property array $data
  *    
  *
- * @property yaxis\AxisPointer $axisPointer
+ * @property array $axisPointer
  *    
  *
  * @property integer $zlevel Default: 0

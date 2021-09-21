@@ -9,10 +9,10 @@ namespace beyong\echarts\options\timeline;
 use beyong\echarts\Property;
 
 /**
- * @property emphasis\Label $label
+ * @property array $label
  *    
  *
- * @property emphasis\ItemStyle $itemStyle
+ * @property array $itemStyle
  *    
  *
  * @property array $checkpointStyle

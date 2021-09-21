@@ -12,13 +12,13 @@ use beyong\echarts\Property;
  * @property boolean $show Default: true
  *    
  *
- * @property datazoom\Title $title
+ * @property array $title
  *    
  *
- * @property datazoom\Icon $icon
+ * @property array $icon
  *    
  *
- * @property datazoom\IconStyle $iconStyle
+ * @property array $iconStyle
  *    
  *
  * @property datazoom\Emphasis $emphasis
@@ -33,7 +33,7 @@ use beyong\echarts\Property;
  * @property integer|array|boolean $yAxisIndex
  *    
  *
- * @property datazoom\BrushStyle $brushStyle
+ * @property array $brushStyle
  *    
  *
  * 

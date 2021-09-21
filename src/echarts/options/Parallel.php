@@ -54,7 +54,7 @@ use beyong\echarts\Property;
  * @property string $axisExpandTriggerOn Default: 'click'
  *    
  *
- * @property parallel\ParallelAxisDefault $parallelAxisDefault
+ * @property array $parallelAxisDefault
  *    
  *
  * <p><strong>平行坐标系介绍</strong></p>

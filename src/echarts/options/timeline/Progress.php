@@ -9,13 +9,13 @@ namespace beyong\echarts\options\timeline;
 use beyong\echarts\Property;
 
 /**
- * @property progress\LineStyle $lineStyle
+ * @property array $lineStyle
  *    
  *
- * @property progress\ItemStyle $itemStyle
+ * @property array $itemStyle
  *    
  *
- * @property progress\Label $label
+ * @property array $label
  *    
  *
  * 

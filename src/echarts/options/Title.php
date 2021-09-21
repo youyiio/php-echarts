@@ -24,7 +24,7 @@ use beyong\echarts\Property;
  * @property string $target Default: 'blank'
  *    
  *
- * @property title\TextStyle $textStyle
+ * @property array $textStyle
  *    
  *
  * @property string $subtext Default: ''
@@ -36,7 +36,7 @@ use beyong\echarts\Property;
  * @property string $subtarget Default: 'blank'
  *    
  *
- * @property title\SubtextStyle $subtextStyle
+ * @property array $subtextStyle
  *    
  *
  * @property string $textAlign Default: 'auto'

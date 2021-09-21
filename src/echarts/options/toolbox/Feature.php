@@ -9,22 +9,22 @@ namespace beyong\echarts\options\toolbox;
 use beyong\echarts\Property;
 
 /**
- * @property feature\SaveAsImage $saveAsImage
+ * @property array $saveAsImage
  *    
  *
- * @property feature\Restore $restore
+ * @property array $restore
  *    
  *
- * @property feature\DataView $dataView
+ * @property array $dataView
  *    
  *
- * @property feature\DataZoom $dataZoom
+ * @property array $dataZoom
  *    
  *
- * @property feature\MagicType $magicType
+ * @property array $magicType
  *    
  *
- * @property feature\Brush $brush
+ * @property array $brush
  *    
  *
  * 

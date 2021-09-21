@@ -15,7 +15,7 @@ use beyong\echarts\Property;
  * @property integer $length Default: 5
  *    
  *
- * @property axistick\LineStyle $lineStyle
+ * @property array $lineStyle
  *    
  *
  * 

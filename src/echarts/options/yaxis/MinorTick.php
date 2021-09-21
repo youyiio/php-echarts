@@ -18,7 +18,7 @@ use beyong\echarts\Property;
  * @property integer $length Default: 3
  *    
  *
- * @property minortick\LineStyle $lineStyle
+ * @property array $lineStyle
  *    
  *
  * 

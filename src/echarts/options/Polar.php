@@ -24,7 +24,7 @@ use beyong\echarts\Property;
  * @property integer|string|array $radius
  *    
  *
- * @property polar\Tooltip $tooltip
+ * @property array $tooltip
  *    
  *
  * <p>极坐标系，可以用于散点图和折线图。每个极坐标系拥有一个<a href="#angleAxis">角度轴</a>和一个<a href="#radiusAxis">半径轴</a>。</p>

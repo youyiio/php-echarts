@@ -15,7 +15,7 @@ use beyong\echarts\Property;
  * @property boolean $show Default: false
  *    
  *
- * @property splitarea\AreaStyle $areaStyle
+ * @property array $areaStyle
  *    
  *
  * 

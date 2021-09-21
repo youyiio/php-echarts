@@ -9,7 +9,7 @@ namespace beyong\echarts\options\legend;
 use beyong\echarts\Property;
 
 /**
- * @property emphasis\SelectorLabel $selectorLabel
+ * @property array $selectorLabel
  *    
  *
  * 

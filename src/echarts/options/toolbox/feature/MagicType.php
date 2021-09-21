@@ -15,13 +15,13 @@ use beyong\echarts\Property;
  * @property array $type
  *    
  *
- * @property magictype\Title $title
+ * @property array $title
  *    
  *
- * @property magictype\Icon $icon
+ * @property array $icon
  *    
  *
- * @property magictype\IconStyle $iconStyle
+ * @property array $iconStyle
  *    
  *
  * @property magictype\Emphasis $emphasis
@@ -30,7 +30,7 @@ use beyong\echarts\Property;
  * @property magictype\Option $option
  *    
  *
- * @property magictype\SeriesIndex $seriesIndex
+ * @property array $seriesIndex
  *    
  *
  * 

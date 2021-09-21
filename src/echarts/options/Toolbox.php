@@ -30,7 +30,7 @@ use beyong\echarts\Property;
  * @property toolbox\Feature $feature
  *    
  *
- * @property toolbox\IconStyle $iconStyle
+ * @property array $iconStyle
  *    
  *
  * @property toolbox\Emphasis $emphasis

@@ -15,7 +15,7 @@ use beyong\echarts\Property;
  * @property string $trigger Default: 'item'
  *    
  *
- * @property tooltip\AxisPointer $axisPointer
+ * @property array $axisPointer
  *    
  *
  * @property string|array|callable $position
@@ -36,7 +36,7 @@ use beyong\echarts\Property;
  * @property integer $padding Default: 5
  *    
  *
- * @property tooltip\TextStyle $textStyle
+ * @property array $textStyle
  *    
  *
  * @property string $extraCssText

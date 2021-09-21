@@ -30,7 +30,7 @@ use beyong\echarts\Property;
  * @property integer $padding Default: 5
  *    
  *
- * @property tooltip\TextStyle $textStyle
+ * @property array $textStyle
  *    
  *
  * @property string $extraCssText

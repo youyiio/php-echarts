@@ -21,7 +21,7 @@ use beyong\echarts\Property;
  * @property array|integer $symbolOffset Default: '[0, 0]'
  *    
  *
- * @property axisline\LineStyle $lineStyle
+ * @property array $lineStyle
  *    
  *
  * 

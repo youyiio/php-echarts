@@ -12,7 +12,7 @@ use beyong\echarts\Property;
  * @property boolean $show Default: true
  *    
  *
- * @property splitline\LineStyle $lineStyle
+ * @property array $lineStyle
  *    
  *
  * 

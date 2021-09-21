@@ -48,7 +48,7 @@ use beyong\echarts\Property;
  * @property string $nameLocation Default: 'end'
  *    
  *
- * @property singleaxis\NameTextStyle $nameTextStyle
+ * @property array $nameTextStyle
  *    
  *
  * @property integer $nameGap Default: 15
@@ -93,34 +93,34 @@ use beyong\echarts\Property;
  * @property boolean $triggerEvent Default: false
  *    
  *
- * @property singleaxis\AxisLine $axisLine
+ * @property array $axisLine
  *    
  *
- * @property singleaxis\AxisTick $axisTick
+ * @property array $axisTick
  *    
  *
- * @property singleaxis\MinorTick $minorTick
+ * @property array $minorTick
  *    
  *
- * @property singleaxis\AxisLabel $axisLabel
+ * @property array $axisLabel
  *    
  *
- * @property singleaxis\SplitLine $splitLine
+ * @property array $splitLine
  *    
  *
- * @property singleaxis\MinorSplitLine $minorSplitLine
+ * @property array $minorSplitLine
  *    
  *
- * @property singleaxis\SplitArea $splitArea
+ * @property array $splitArea
  *    
  *
- * @property singleaxis\Data $data
+ * @property array $data
  *    
  *
- * @property singleaxis\AxisPointer $axisPointer
+ * @property array $axisPointer
  *    
  *
- * @property singleaxis\Tooltip $tooltip
+ * @property array $tooltip
  *    
  *
  * 

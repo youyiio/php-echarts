@@ -27,7 +27,7 @@ use beyong\echarts\Property;
  * @property integer $startAngle Default: 90
  *    
  *
- * @property radar\Name $name
+ * @property array $name
  *    
  *
  * @property integer $nameGap Default: 15
@@ -48,22 +48,22 @@ use beyong\echarts\Property;
  * @property boolean $triggerEvent Default: false
  *    
  *
- * @property radar\AxisLine $axisLine
+ * @property array $axisLine
  *    
  *
- * @property radar\AxisTick $axisTick
+ * @property array $axisTick
  *    
  *
- * @property radar\AxisLabel $axisLabel
+ * @property array $axisLabel
  *    
  *
- * @property radar\SplitLine $splitLine
+ * @property array $splitLine
  *    
  *
- * @property radar\SplitArea $splitArea
+ * @property array $splitArea
  *    
  *
- * @property radar\Indicator $indicator
+ * @property array $indicator
  *    
  *
  * <p>雷达图坐标系组件，只适用于<a href="#series-radar">雷达图</a>。该组件等同 ECharts 2 中的 polar 组件。因为 3 中的 polar 被重构为标准的极坐标组件，为避免混淆，雷达图使用 radar 组件作为其坐标系。</p>

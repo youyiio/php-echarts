@@ -21,7 +21,7 @@ use beyong\echarts\Property;
  * @property boolean $realtime Default: true
  *    
  *
- * @property parallelaxis\AreaSelectStyle $areaSelectStyle
+ * @property array $areaSelectStyle
  *    
  *
  * @property string $type Default: 'value'
@@ -33,7 +33,7 @@ use beyong\echarts\Property;
  * @property string $nameLocation Default: 'end'
  *    
  *
- * @property parallelaxis\NameTextStyle $nameTextStyle
+ * @property array $nameTextStyle
  *    
  *
  * @property integer $nameGap Default: 15
@@ -78,19 +78,19 @@ use beyong\echarts\Property;
  * @property boolean $triggerEvent Default: false
  *    
  *
- * @property parallelaxis\AxisLine $axisLine
+ * @property array $axisLine
  *    
  *
- * @property parallelaxis\AxisTick $axisTick
+ * @property array $axisTick
  *    
  *
- * @property parallelaxis\MinorTick $minorTick
+ * @property array $minorTick
  *    
  *
- * @property parallelaxis\AxisLabel $axisLabel
+ * @property array $axisLabel
  *    
  *
- * @property parallelaxis\Data $data
+ * @property array $data
  *    
  *
  * 

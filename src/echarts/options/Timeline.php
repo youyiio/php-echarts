@@ -84,19 +84,19 @@ use beyong\echarts\Property;
  * @property array $symbolOffset Default: '[0, 0]'
  *    
  *
- * @property timeline\LineStyle $lineStyle
+ * @property array $lineStyle
  *    
  *
- * @property timeline\Label $label
+ * @property array $label
  *    
  *
- * @property timeline\ItemStyle $itemStyle
+ * @property array $itemStyle
  *    
  *
- * @property timeline\CheckpointStyle $checkpointStyle
+ * @property array $checkpointStyle
  *    
  *
- * @property timeline\ControlStyle $controlStyle
+ * @property array $controlStyle
  *    
  *
  * @property timeline\Progress $progress

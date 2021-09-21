@@ -60,10 +60,10 @@ use beyong\echarts\Property;
  * @property integer $itemHeight Default: 14
  *    
  *
- * @property legend\ItemStyle $itemStyle
+ * @property array $itemStyle
  *    
  *
- * @property legend\LineStyle $lineStyle
+ * @property array $lineStyle
  *    
  *
  * @property integer|string $symbolRotate Default: 'inherit'
@@ -87,7 +87,7 @@ use beyong\echarts\Property;
  * @property array $selected
  *    
  *
- * @property legend\TextStyle $textStyle
+ * @property array $textStyle
  *    
  *
  * @property array $tooltip
@@ -96,7 +96,7 @@ use beyong\echarts\Property;
  * @property string $icon
  *    
  *
- * @property legend\Data $data
+ * @property array $data
  *    
  *
  * @property string $backgroundColor Default: 'transparent'
@@ -138,7 +138,7 @@ use beyong\echarts\Property;
  * @property string|callable $pageFormatter Default: '{current}/{total}'
  *    
  *
- * @property legend\PageIcons $pageIcons
+ * @property array $pageIcons
  *    
  *
  * @property string $pageIconColor Default: '#2f4554'
@@ -150,7 +150,7 @@ use beyong\echarts\Property;
  * @property integer|array $pageIconSize Default: 15
  *    
  *
- * @property legend\PageTextStyle $pageTextStyle
+ * @property array $pageTextStyle
  *    
  *
  * @property boolean $animation
@@ -165,7 +165,7 @@ use beyong\echarts\Property;
  * @property boolean|array $selector Default: false
  *    
  *
- * @property legend\SelectorLabel $selectorLabel
+ * @property array $selectorLabel
  *    
  *
  * @property string $selectorPosition Default: 'auto'

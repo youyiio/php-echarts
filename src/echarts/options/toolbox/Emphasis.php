@@ -9,7 +9,7 @@ namespace beyong\echarts\options\toolbox;
 use beyong\echarts\Property;
 
 /**
- * @property emphasis\IconStyle $iconStyle
+ * @property array $iconStyle
  *    
  *
  * 

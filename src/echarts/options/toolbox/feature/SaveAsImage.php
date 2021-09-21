@@ -33,7 +33,7 @@ use beyong\echarts\Property;
  * @property string $icon
  *    
  *
- * @property saveasimage\IconStyle $iconStyle
+ * @property array $iconStyle
  *    
  *
  * @property saveasimage\Emphasis $emphasis

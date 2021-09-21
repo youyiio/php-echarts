@@ -7,7 +7,7 @@
  */
 namespace beyong\echarts;
 
-use beyong\echarts\charts\Chart;
+use beyong\echarts\Chart;
 use beyong\echarts\options\Title;
 use beyong\echarts\options\Toolbox;
 use beyong\echarts\options\Tooltip;

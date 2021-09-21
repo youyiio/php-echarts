@@ -7,7 +7,7 @@
  */
 namespace beyong\echarts;
 
-use beyong\echarts\charts\Chart;
+use beyong\echarts\Chart;
 use beyong\echarts\render\Engine;
 use beyong\echarts\render\HtmlEngine;
 use beyong\echarts\options\XAxis;

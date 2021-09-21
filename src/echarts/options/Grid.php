@@ -63,7 +63,7 @@ use beyong\echarts\Property;
  * @property integer $shadowOffsetY Default: 0
  *    
  *
- * @property grid\Tooltip $tooltip
+ * @property array $tooltip
  *    
  *
  * <p>直角坐标系内绘图网格，单个 grid 内最多可以放置上下两个 X 轴，左右两个 Y 轴。可以在网格上绘制<a href="#series-line">折线图</a>，<a href="#series-bar">柱状图</a>，<a href="#series-scatter">散点图（气泡图）</a>。</p>

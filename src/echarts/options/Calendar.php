@@ -45,19 +45,19 @@ use beyong\echarts\Property;
  * @property string $orient Default: 'horizontal'
  *    
  *
- * @property calendar\SplitLine $splitLine
+ * @property array $splitLine
  *    
  *
- * @property calendar\ItemStyle $itemStyle
+ * @property array $itemStyle
  *    
  *
- * @property calendar\DayLabel $dayLabel
+ * @property array $dayLabel
  *    
  *
- * @property calendar\MonthLabel $monthLabel
+ * @property array $monthLabel
  *    
  *
- * @property calendar\YearLabel $yearLabel
+ * @property array $yearLabel
  *    
  *
  * @property boolean $silent Default: false

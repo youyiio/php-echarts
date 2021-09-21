@@ -48,7 +48,7 @@ use beyong\echarts\Property;
  * @property integer $opacity Default: 'inherit'
  *    
  *
- * @property itemstyle\Decal $decal Default: 'inherit'
+ * @property array $decal Default: 'inherit'
  *    
  *
  * 

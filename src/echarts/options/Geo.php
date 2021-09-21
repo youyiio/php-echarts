@@ -33,7 +33,7 @@ use beyong\echarts\Property;
  * @property integer $zoom Default: 1
  *    
  *
- * @property geo\ScaleLimit $scaleLimit
+ * @property array $scaleLimit
  *    
  *
  * @property array $nameMap
@@ -45,13 +45,13 @@ use beyong\echarts\Property;
  * @property boolean|string $selectedMode Default: false
  *    
  *
- * @property geo\Label $label
+ * @property array $label
  *    
  *
- * @property geo\ItemStyle $itemStyle
+ * @property array $itemStyle
  *    
  *
- * @property geo\Emphasis $emphasis
+ * @property array $emphasis
  *    
  *
  * @property geo\Select $select
@@ -84,13 +84,13 @@ use beyong\echarts\Property;
  * @property integer|string $layoutSize
  *    
  *
- * @property geo\Regions $regions
+ * @property array $regions
  *    
  *
  * @property boolean $silent Default: false
  *    
  *
- * @property geo\Tooltip $tooltip
+ * @property array $tooltip
  *    
  *
  * <p>地理坐标系组件。</p>

@@ -12,10 +12,10 @@ use beyong\echarts\Property;
  * @property string $focus Default: 'none'
  *    
  *
- * @property emphasis\Label $label
+ * @property array $label
  *    
  *
- * @property emphasis\ItemStyle $itemStyle
+ * @property array $itemStyle
  *    
  *
  * 

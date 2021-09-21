@@ -24,7 +24,7 @@ use beyong\echarts\Property;
  * @property string $nameLocation Default: 'end'
  *    
  *
- * @property radiusaxis\NameTextStyle $nameTextStyle
+ * @property array $nameTextStyle
  *    
  *
  * @property integer $nameGap Default: 15
@@ -69,31 +69,31 @@ use beyong\echarts\Property;
  * @property boolean $triggerEvent Default: false
  *    
  *
- * @property radiusaxis\AxisLine $axisLine
+ * @property array $axisLine
  *    
  *
- * @property radiusaxis\AxisTick $axisTick
+ * @property array $axisTick
  *    
  *
- * @property radiusaxis\MinorTick $minorTick
+ * @property array $minorTick
  *    
  *
- * @property radiusaxis\AxisLabel $axisLabel
+ * @property array $axisLabel
  *    
  *
- * @property radiusaxis\SplitLine $splitLine
+ * @property array $splitLine
  *    
  *
- * @property radiusaxis\MinorSplitLine $minorSplitLine
+ * @property array $minorSplitLine
  *    
  *
- * @property radiusaxis\SplitArea $splitArea
+ * @property array $splitArea
  *    
  *
- * @property radiusaxis\Data $data
+ * @property array $data
  *    
  *
- * @property radiusaxis\AxisPointer $axisPointer
+ * @property array $axisPointer
  *    
  *
  * @property integer $zlevel Default: 0
