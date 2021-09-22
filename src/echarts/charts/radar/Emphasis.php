@@ -1,6 +1,6 @@
 <?php
 /**
- * Created by php-echarts AutoGenerate.
+ * Created by php-echarts library.
  * @author: cattong <aronter@gmail.com>
  */
 
@@ -9,12 +9,6 @@ namespace beyong\echarts\charts\radar;
 use beyong\echarts\Property;
 
 /**
- * @property string $focus Default: 'none'
- *    
- *
- * @property string $blurScope Default: 'coordinateSystem'
- *    
- *
  * @property array $itemStyle
  *    
  *

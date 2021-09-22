@@ -1,6 +1,6 @@
 <?php
 /**
- * Created by php-echarts AutoGenerate.
+ * Created by php-echarts library.
  * @author: cattong <aronter@gmail.com>
  */
 
@@ -9,21 +9,6 @@ namespace beyong\echarts\options\xaxis;
 use beyong\echarts\Property;
 
 /**
- * @property boolean $show Default: true
- *    
- *
- * @property boolean $alignWithLabel Default: false
- *    
- *
- * @property integer|callable $interval Default: 'auto'
- *    
- *
- * @property boolean $inside Default: false
- *    
- *
- * @property integer $length Default: 5
- *    
- *
  * @property array $lineStyle
  *    
  *

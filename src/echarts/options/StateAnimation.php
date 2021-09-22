@@ -1,6 +1,6 @@
 <?php
 /**
- * Created by php-echarts AutoGenerate.
+ * Created by php-echarts library.
  * @author: cattong <aronter@gmail.com>
  */
 
@@ -9,12 +9,6 @@ namespace beyong\echarts\options;
 use beyong\echarts\Property;
 
 /**
- * @property integer $duration Default: 300
- *    
- *
- * @property string $easing Default: 'cubicOut'
- *    
- *
  * 
  * 
  * {_more_}

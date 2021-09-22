@@ -1,6 +1,6 @@
 <?php
 /**
- * Created by php-echarts AutoGenerate.
+ * Created by php-echarts library.
  * @author: cattong <aronter@gmail.com>
  */
 
@@ -10,18 +10,6 @@ use beyong\echarts\Property;
 
 /**
  * @property string $color
- *    
- *
- * @property integer $number Default: 3
- *    
- *
- * @property integer $period Default: 4
- *    
- *
- * @property double $scale Default: '2.5'
- *    
- *
- * @property string $brushType Default: 'fill'
  *    
  *
  * 

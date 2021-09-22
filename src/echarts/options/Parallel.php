@@ -1,6 +1,6 @@
 <?php
 /**
- * Created by php-echarts AutoGenerate.
+ * Created by php-echarts library.
  * @author: cattong <aronter@gmail.com>
  */
 
@@ -12,46 +12,7 @@ use beyong\echarts\Property;
  * @property string $id
  *    
  *
- * @property integer $zlevel Default: 0
- *    
- *
- * @property integer $z Default: 2
- *    
- *
- * @property string|integer $left Default: 80
- *    
- *
- * @property string|integer $top Default: 60
- *    
- *
- * @property string|integer $right Default: 80
- *    
- *
- * @property string|integer $bottom Default: 60
- *    
- *
- * @property string|integer $width Default: 'auto'
- *    
- *
- * @property string|integer $height Default: 'auto'
- *    
- *
- * @property string $layout Default: 'horizontal'
- *    
- *
- * @property boolean $axisExpandable Default: false
- *    
- *
  * @property integer $axisExpandCenter
- *    
- *
- * @property integer $axisExpandCount Default: 0
- *    
- *
- * @property integer $axisExpandWidth Default: 50
- *    
- *
- * @property string $axisExpandTriggerOn Default: 'click'
  *    
  *
  * @property array $parallelAxisDefault

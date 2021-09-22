@@ -1,6 +1,6 @@
 <?php
 /**
- * Created by php-echarts AutoGenerate.
+ * Created by php-echarts library.
  * @author: cattong <aronter@gmail.com>
  */
 
@@ -12,37 +12,16 @@ use beyong\echarts\Property;
  * @property string $id
  *    
  *
- * @property boolean $show Default: true
- *    
- *
- * @property string $map Default: ''
- *    
- *
- * @property boolean|string $roam Default: false
- *    
- *
  * @property array $center
  *    
  *
- * @property double $aspectScale Default: '0.75'
- *    
- *
  * @property array $boundingCoords
- *    
- *
- * @property integer $zoom Default: 1
  *    
  *
  * @property array $scaleLimit
  *    
  *
  * @property array $nameMap
- *    
- *
- * @property string $nameProperty Default: 'name'
- *    
- *
- * @property boolean|string $selectedMode Default: false
  *    
  *
  * @property array $label
@@ -60,24 +39,6 @@ use beyong\echarts\Property;
  * @property geo\Blur $blur
  *    
  *
- * @property integer $zlevel Default: 0
- *    
- *
- * @property integer $z Default: 2
- *    
- *
- * @property string|integer $left Default: 'auto'
- *    
- *
- * @property string|integer $top Default: 'auto'
- *    
- *
- * @property string|integer $right Default: 'auto'
- *    
- *
- * @property string|integer $bottom Default: 'auto'
- *    
- *
  * @property array $layoutCenter
  *    
  *
@@ -85,9 +46,6 @@ use beyong\echarts\Property;
  *    
  *
  * @property array $regions
- *    
- *
- * @property boolean $silent Default: false
  *    
  *
  * @property array $tooltip

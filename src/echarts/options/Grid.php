@@ -1,6 +1,6 @@
 <?php
 /**
- * Created by php-echarts AutoGenerate.
+ * Created by php-echarts library.
  * @author: cattong <aronter@gmail.com>
  */
 
@@ -12,55 +12,10 @@ use beyong\echarts\Property;
  * @property string $id
  *    
  *
- * @property boolean $show Default: false
- *    
- *
- * @property integer $zlevel Default: 0
- *    
- *
- * @property integer $z Default: 2
- *    
- *
- * @property string|integer $left Default: '10%'
- *    
- *
- * @property string|integer $top Default: 60
- *    
- *
- * @property string|integer $right Default: '10%'
- *    
- *
- * @property string|integer $bottom Default: 60
- *    
- *
- * @property string|integer $width Default: 'auto'
- *    
- *
- * @property string|integer $height Default: 'auto'
- *    
- *
- * @property boolean $containLabel Default: false
- *    
- *
- * @property string $backgroundColor Default: 'transparent'
- *    
- *
- * @property string $borderColor Default: '#ccc'
- *    
- *
- * @property integer $borderWidth Default: 1
- *    
- *
  * @property integer $shadowBlur
  *    
  *
  * @property string $shadowColor
- *    
- *
- * @property integer $shadowOffsetX Default: 0
- *    
- *
- * @property integer $shadowOffsetY Default: 0
  *    
  *
  * @property array $tooltip

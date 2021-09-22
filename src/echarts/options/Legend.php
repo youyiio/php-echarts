@@ -1,6 +1,6 @@
 <?php
 /**
- * Created by php-echarts AutoGenerate.
+ * Created by php-echarts library.
  * @author: cattong <aronter@gmail.com>
  */
 
@@ -15,73 +15,13 @@ use beyong\echarts\Property;
  * @property string $id
  *    
  *
- * @property boolean $show Default: true
- *    
- *
- * @property integer $zlevel Default: 0
- *    
- *
- * @property integer $z Default: 2
- *    
- *
- * @property string|integer $left Default: 'auto'
- *    
- *
- * @property string|integer $top Default: 'auto'
- *    
- *
- * @property string|integer $right Default: 'auto'
- *    
- *
- * @property string|integer $bottom Default: 'auto'
- *    
- *
- * @property string|integer $width Default: 'auto'
- *    
- *
- * @property string|integer $height Default: 'auto'
- *    
- *
- * @property string $orient Default: 'horizontal'
- *    
- *
- * @property string $align Default: 'auto'
- *    
- *
- * @property integer|array $padding Default: 5
- *    
- *
- * @property integer $itemGap Default: 10
- *    
- *
- * @property integer $itemWidth Default: 25
- *    
- *
- * @property integer $itemHeight Default: 14
- *    
- *
  * @property array $itemStyle
  *    
  *
  * @property array $lineStyle
  *    
  *
- * @property integer|string $symbolRotate Default: 'inherit'
- *    
- *
  * @property string|callable $formatter
- *    
- *
- * @property string|boolean $selectedMode Default: true
- *    
- *
- * @property string $inactiveColor Default: '#ccc'
- *    
- *
- * @property string $inactiveBorderColor Default: '#ccc'
- *    
- *
- * @property string $inactiveBorderWidth Default: 'auto'
  *    
  *
  * @property array $selected
@@ -99,55 +39,16 @@ use beyong\echarts\Property;
  * @property array $data
  *    
  *
- * @property string $backgroundColor Default: 'transparent'
- *    
- *
- * @property string $borderColor Default: '#ccc'
- *    
- *
- * @property integer $borderWidth Default: 1
- *    
- *
- * @property integer|array $borderRadius Default: 0
- *    
- *
  * @property integer $shadowBlur
  *    
  *
  * @property string $shadowColor
  *    
  *
- * @property integer $shadowOffsetX Default: 0
- *    
- *
- * @property integer $shadowOffsetY Default: 0
- *    
- *
- * @property integer $scrollDataIndex Default: 0
- *    
- *
- * @property integer $pageButtonItemGap Default: 5
- *    
- *
  * @property integer $pageButtonGap
  *    
  *
- * @property string $pageButtonPosition Default: 'end'
- *    
- *
- * @property string|callable $pageFormatter Default: '{current}/{total}'
- *    
- *
  * @property array $pageIcons
- *    
- *
- * @property string $pageIconColor Default: '#2f4554'
- *    
- *
- * @property string $pageIconInactiveColor Default: '#aaa'
- *    
- *
- * @property integer|array $pageIconSize Default: 15
  *    
  *
  * @property array $pageTextStyle
@@ -156,25 +57,10 @@ use beyong\echarts\Property;
  * @property boolean $animation
  *    
  *
- * @property integer $animationDurationUpdate Default: 800
- *    
- *
  * @property legend\Emphasis $emphasis
  *    
  *
- * @property boolean|array $selector Default: false
- *    
- *
  * @property array $selectorLabel
- *    
- *
- * @property string $selectorPosition Default: 'auto'
- *    
- *
- * @property integer $selectorItemGap Default: 7
- *    
- *
- * @property integer $selectorButtonGap Default: 10
  *    
  *
  * <p>图例组件。</p>

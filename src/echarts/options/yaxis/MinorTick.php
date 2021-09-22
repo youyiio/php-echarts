@@ -1,6 +1,6 @@
 <?php
 /**
- * Created by php-echarts AutoGenerate.
+ * Created by php-echarts library.
  * @author: cattong <aronter@gmail.com>
  */
 
@@ -9,15 +9,6 @@ namespace beyong\echarts\options\yaxis;
 use beyong\echarts\Property;
 
 /**
- * @property boolean $show Default: false
- *    
- *
- * @property integer $splitNumber Default: 5
- *    
- *
- * @property integer $length Default: 3
- *    
- *
  * @property array $lineStyle
  *    
  *

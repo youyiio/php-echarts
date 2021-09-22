@@ -1,6 +1,6 @@
 <?php
 /**
- * Created by php-echarts AutoGenerate.
+ * Created by php-echarts library.
  * @author: cattong <aronter@gmail.com>
  */
 
@@ -12,13 +12,7 @@ use beyong\echarts\Property;
  * @property string $id
  *    
  *
- * @property array $toolbox Default: '[\'rect\', \'polygon\', \'keep\', \'clear\']'
- *    
- *
  * @property array|string $brushLink
- *    
- *
- * @property array|integer|string $seriesIndex Default: 'all'
  *    
  *
  * @property array|integer|string $geoIndex
@@ -30,34 +24,13 @@ use beyong\echarts\Property;
  * @property array|integer|string $yAxisIndex
  *    
  *
- * @property string $brushType Default: 'rect'
- *    
- *
- * @property string $brushMode Default: 'single'
- *    
- *
- * @property boolean $transformable Default: true
- *    
- *
  * @property array $brushStyle
- *    
- *
- * @property string $throttleType Default: 'fixRate'
- *    
- *
- * @property integer $throttleDelay Default: 0
- *    
- *
- * @property boolean $removeOnClick Default: true
  *    
  *
  * @property array $inBrush
  *    
  *
  * @property array $outOfBrush
- *    
- *
- * @property integer $z Default: 10000
  *    
  *
  * <p><code class="codespan">brush</code> 是区域选择组件，用户可以选择图中一部分数据，从而便于向用户展示被选中数据，或者他们的一些统计计算结果。</p>

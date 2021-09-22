@@ -1,6 +1,6 @@
 <?php
 /**
- * Created by php-echarts AutoGenerate.
+ * Created by php-echarts library.
  * @author: cattong <aronter@gmail.com>
  */
 
@@ -9,18 +9,6 @@ namespace beyong\echarts\charts\gauge;
 use beyong\echarts\Property;
 
 /**
- * @property boolean $show Default: true
- *    
- *
- * @property integer $splitNumber Default: 5
- *    
- *
- * @property integer|string $length Default: 6
- *    
- *
- * @property integer $distance Default: 10
- *    
- *
  * @property array $lineStyle
  *    
  *

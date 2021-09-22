@@ -1,6 +1,6 @@
 <?php
 /**
- * Created by php-echarts AutoGenerate.
+ * Created by php-echarts library.
  * @author: cattong <aronter@gmail.com>
  */
 
@@ -12,37 +12,7 @@ use beyong\echarts\Property;
  * @property string $id
  *    
  *
- * @property integer $zlevel Default: 0
- *    
- *
- * @property integer $z Default: 2
- *    
- *
- * @property string|integer $left Default: 80
- *    
- *
- * @property string|integer $top Default: 60
- *    
- *
- * @property string|integer $right Default: 'auto'
- *    
- *
- * @property string|integer $bottom Default: 'auto'
- *    
- *
- * @property integer|string $width Default: 'auto'
- *    
- *
- * @property integer|string $height Default: 'auto'
- *    
- *
  * @property integer|string|array $range
- *    
- *
- * @property integer|array $cellSize Default: 20
- *    
- *
- * @property string $orient Default: 'horizontal'
  *    
  *
  * @property array $splitLine
@@ -58,9 +28,6 @@ use beyong\echarts\Property;
  *    
  *
  * @property array $yearLabel
- *    
- *
- * @property boolean $silent Default: false
  *    
  *
  * <p>日历坐标系组件。</p>

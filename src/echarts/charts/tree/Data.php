@@ -1,6 +1,6 @@
 <?php
 /**
- * Created by php-echarts AutoGenerate.
+ * Created by php-echarts library.
  * @author: cattong <aronter@gmail.com>
  */
 
@@ -34,30 +34,6 @@ use beyong\echarts\Property;
  *    
  *
  * @property * $tooltip
- *    
- *
- * @property boolean $animation Default: true
- *    
- *
- * @property integer $animationThreshold Default: 2000
- *    
- *
- * @property integer|callable $animationDuration Default: 1000
- *    
- *
- * @property string $animationEasing Default: 'linear'
- *    
- *
- * @property integer|callable $animationDelay Default: 0
- *    
- *
- * @property integer|callable $animationDurationUpdate Default: 300
- *    
- *
- * @property string $animationEasingUpdate Default: 'cubicInOut'
- *    
- *
- * @property integer|callable $animationDelayUpdate Default: 0
  *    
  *
  * 

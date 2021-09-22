@@ -1,6 +1,6 @@
 <?php
 /**
- * Created by php-echarts AutoGenerate.
+ * Created by php-echarts library.
  * @author: cattong <aronter@gmail.com>
  */
 
@@ -12,22 +12,10 @@ use beyong\echarts\Property;
  * @property array $color
  *    
  *
- * @property integer $width Default: 10
- *    
- *
  * @property integer $shadowBlur
  *    
  *
  * @property string $shadowColor
- *    
- *
- * @property integer $shadowOffsetX Default: 0
- *    
- *
- * @property integer $shadowOffsetY Default: 0
- *    
- *
- * @property integer $opacity Default: 1
  *    
  *
  * 

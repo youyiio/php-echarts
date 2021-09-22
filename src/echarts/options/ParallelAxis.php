@@ -1,6 +1,6 @@
 <?php
 /**
- * Created by php-echarts AutoGenerate.
+ * Created by php-echarts library.
  * @author: cattong <aronter@gmail.com>
  */
 
@@ -15,34 +15,16 @@ use beyong\echarts\Property;
  * @property integer $dim
  *    
  *
- * @property integer $parallelIndex Default: 0
- *    
- *
- * @property boolean $realtime Default: true
- *    
- *
  * @property array $areaSelectStyle
- *    
- *
- * @property string $type Default: 'value'
  *    
  *
  * @property string $name
  *    
  *
- * @property string $nameLocation Default: 'end'
- *    
- *
  * @property array $nameTextStyle
  *    
  *
- * @property integer $nameGap Default: 15
- *    
- *
  * @property integer $nameRotate
- *    
- *
- * @property boolean $inverse Default: false
  *    
  *
  * @property boolean|array $boundaryGap
@@ -54,28 +36,10 @@ use beyong\echarts\Property;
  * @property integer|string|callable $max
  *    
  *
- * @property boolean $scale Default: false
- *    
- *
- * @property integer $splitNumber Default: 5
- *    
- *
- * @property integer $minInterval Default: 0
- *    
- *
  * @property integer $maxInterval
  *    
  *
  * @property integer $interval
- *    
- *
- * @property integer $logBase Default: 10
- *    
- *
- * @property boolean $silent Default: false
- *    
- *
- * @property boolean $triggerEvent Default: false
  *    
  *
  * @property array $axisLine

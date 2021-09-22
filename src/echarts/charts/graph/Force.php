@@ -1,6 +1,6 @@
 <?php
 /**
- * Created by php-echarts AutoGenerate.
+ * Created by php-echarts library.
  * @author: cattong <aronter@gmail.com>
  */
 
@@ -10,21 +10,6 @@ use beyong\echarts\Property;
 
 /**
  * @property string $initLayout
- *    
- *
- * @property array|integer $repulsion Default: 50
- *    
- *
- * @property double $gravity Default: '0.1'
- *    
- *
- * @property array|integer $edgeLength Default: 30
- *    
- *
- * @property boolean $layoutAnimation Default: true
- *    
- *
- * @property double $friction Default: '0.6'
  *    
  *
  * 

@@ -1,6 +1,6 @@
 <?php
 /**
- * Created by php-echarts AutoGenerate.
+ * Created by php-echarts library.
  * @author: cattong <aronter@gmail.com>
  */
 
@@ -19,12 +19,6 @@ use beyong\echarts\Property;
  *    
  *
  * @property integer $length2
- *    
- *
- * @property boolean|integer $smooth Default: false
- *    
- *
- * @property integer $minTurnAngle Default: 90
  *    
  *
  * @property array $lineStyle

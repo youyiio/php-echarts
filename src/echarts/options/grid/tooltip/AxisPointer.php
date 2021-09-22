@@ -1,6 +1,6 @@
 <?php
 /**
- * Created by php-echarts AutoGenerate.
+ * Created by php-echarts library.
  * @author: cattong <aronter@gmail.com>
  */
 
@@ -9,12 +9,6 @@ namespace beyong\echarts\options\grid\tooltip;
 use beyong\echarts\Property;
 
 /**
- * @property string $type Default: 'line'
- *    
- *
- * @property string $axis Default: 'auto'
- *    
- *
  * @property boolean $snap
  *    
  *
@@ -31,30 +25,6 @@ use beyong\echarts\Property;
  *    
  *
  * @property array $crossStyle
- *    
- *
- * @property boolean $animation Default: true
- *    
- *
- * @property integer $animationThreshold Default: 2000
- *    
- *
- * @property integer|callable $animationDuration Default: 1000
- *    
- *
- * @property string $animationEasing Default: 'cubicOut'
- *    
- *
- * @property integer|callable $animationDelay Default: 0
- *    
- *
- * @property integer|callable $animationDurationUpdate Default: 200
- *    
- *
- * @property string $animationEasingUpdate Default: 'exponentialOut'
- *    
- *
- * @property integer|callable $animationDelayUpdate Default: 0
  *    
  *
  * 

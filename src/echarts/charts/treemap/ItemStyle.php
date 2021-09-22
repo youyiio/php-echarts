@@ -1,6 +1,6 @@
 <?php
 /**
- * Created by php-echarts AutoGenerate.
+ * Created by php-echarts library.
  * @author: cattong <aronter@gmail.com>
  */
 
@@ -18,18 +18,6 @@ use beyong\echarts\Property;
  * @property integer $colorSaturation
  *    
  *
- * @property integer|array $borderRadius Default: 0
- *    
- *
- * @property integer $borderWidth Default: 0
- *    
- *
- * @property integer $gapWidth Default: 0
- *    
- *
- * @property string $borderColor Default: '#fff\','
- *    
- *
  * @property string $borderColorSaturation
  *    
  *
@@ -37,15 +25,6 @@ use beyong\echarts\Property;
  *    
  *
  * @property string $shadowColor
- *    
- *
- * @property integer $shadowOffsetX Default: 0
- *    
- *
- * @property integer $shadowOffsetY Default: 0
- *    
- *
- * @property integer $opacity Default: 1
  *    
  *
  * @property array $decal

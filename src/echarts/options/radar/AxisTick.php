@@ -1,6 +1,6 @@
 <?php
 /**
- * Created by php-echarts AutoGenerate.
+ * Created by php-echarts library.
  * @author: cattong <aronter@gmail.com>
  */
 
@@ -9,12 +9,6 @@ namespace beyong\echarts\options\radar;
 use beyong\echarts\Property;
 
 /**
- * @property boolean $show Default: true
- *    
- *
- * @property integer $length Default: 5
- *    
- *
  * @property array $lineStyle
  *    
  *

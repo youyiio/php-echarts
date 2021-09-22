@@ -1,6 +1,6 @@
 <?php
 /**
- * Created by php-echarts AutoGenerate.
+ * Created by php-echarts library.
  * @author: cattong <aronter@gmail.com>
  */
 
@@ -12,40 +12,7 @@ use beyong\echarts\Property;
  * @property string $id
  *    
  *
- * @property integer $zlevel Default: 0
- *    
- *
- * @property integer $z Default: 2
- *    
- *
- * @property array $center Default: '[\'50%\', \'50%\']'
- *    
- *
- * @property integer|string|array $radius Default: '75%'
- *    
- *
- * @property integer $startAngle Default: 90
- *    
- *
  * @property array $name
- *    
- *
- * @property integer $nameGap Default: 15
- *    
- *
- * @property integer $splitNumber Default: 5
- *    
- *
- * @property string $shape Default: 'polygon'
- *    
- *
- * @property boolean $scale Default: false
- *    
- *
- * @property boolean $silent Default: false
- *    
- *
- * @property boolean $triggerEvent Default: false
  *    
  *
  * @property array $axisLine

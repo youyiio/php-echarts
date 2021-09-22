@@ -1,6 +1,6 @@
 <?php
 /**
- * Created by php-echarts AutoGenerate.
+ * Created by php-echarts library.
  * @author: cattong <aronter@gmail.com>
  */
 
@@ -9,79 +9,7 @@ namespace beyong\echarts\options;
 use beyong\echarts\Property;
 
 /**
- * @property boolean $show Default: true
- *    
- *
- * @property string $type Default: 'slider'
- *    
- *
- * @property string $axisType Default: 'time'
- *    
- *
- * @property integer $currentIndex Default: 0
- *    
- *
- * @property boolean $autoPlay Default: false
- *    
- *
- * @property boolean $rewind Default: false
- *    
- *
- * @property boolean $loop Default: true
- *    
- *
- * @property integer $playInterval Default: 2000
- *    
- *
- * @property boolean $realtime Default: true
- *    
- *
- * @property array|string $replaceMerge Default: 'undefined'
- *    
- *
- * @property string $controlPosition Default: 'left'
- *    
- *
- * @property integer $zlevel Default: 0
- *    
- *
- * @property integer $z Default: 2
- *    
- *
- * @property string|integer $left Default: 'auto'
- *    
- *
- * @property string|integer $top Default: 'auto'
- *    
- *
- * @property string|integer $right Default: 'auto'
- *    
- *
- * @property string|integer $bottom Default: 'auto'
- *    
- *
- * @property integer|array $padding Default: 5
- *    
- *
- * @property string $orient Default: 'horizontal'
- *    
- *
- * @property boolean $inverse Default: false
- *    
- *
- * @property string $symbol Default: 'emptyCircle'
- *    
- *
- * @property integer|array $symbolSize Default: 10
- *    
- *
  * @property integer $symbolRotate
- *    
- *
- * @property boolean $symbolKeepAspect Default: false
- *    
- *
- * @property array $symbolOffset Default: '[0, 0]'
  *    
  *
  * @property array $lineStyle

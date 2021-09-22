@@ -1,6 +1,6 @@
 <?php
 /**
- * Created by php-echarts AutoGenerate.
+ * Created by php-echarts library.
  * @author: cattong <aronter@gmail.com>
  */
 
@@ -9,25 +9,10 @@ namespace beyong\echarts\charts\tree\data\blur;
 use beyong\echarts\Property;
 
 /**
- * @property string $color Default: '#ccc'
- *    
- *
- * @property double $width Default: '1.5'
- *    
- *
- * @property double $curveness Default: '0.5'
- *    
- *
  * @property integer $shadowBlur
  *    
  *
  * @property string $shadowColor
- *    
- *
- * @property integer $shadowOffsetX Default: 0
- *    
- *
- * @property integer $shadowOffsetY Default: 0
  *    
  *
  * 

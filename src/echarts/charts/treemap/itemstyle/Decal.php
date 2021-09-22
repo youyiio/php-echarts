@@ -1,6 +1,6 @@
 <?php
 /**
- * Created by php-echarts AutoGenerate.
+ * Created by php-echarts library.
  * @author: cattong <aronter@gmail.com>
  */
 
@@ -9,34 +9,7 @@ namespace beyong\echarts\charts\treemap\itemstyle;
 use beyong\echarts\Property;
 
 /**
- * @property string|array $symbol Default: 'rect'
- *    
- *
- * @property integer $symbolSize Default: 1
- *    
- *
- * @property boolean $symbolKeepAspect Default: true
- *    
- *
- * @property string $color Default: 'rgba(0, 0, 0, 0.2)'
- *    
- *
  * @property string $backgroundColor
- *    
- *
- * @property integer|array $dashArrayX Default: 5
- *    
- *
- * @property integer|array $dashArrayY Default: 5
- *    
- *
- * @property integer $rotation Default: 0
- *    
- *
- * @property integer $maxTileWidth Default: 512
- *    
- *
- * @property integer $maxTileHeight Default: 512
  *    
  *
  * 

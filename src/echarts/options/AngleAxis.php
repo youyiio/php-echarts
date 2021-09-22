@@ -1,6 +1,6 @@
 <?php
 /**
- * Created by php-echarts AutoGenerate.
+ * Created by php-echarts library.
  * @author: cattong <aronter@gmail.com>
  */
 
@@ -12,18 +12,6 @@ use beyong\echarts\Property;
  * @property string $id
  *    
  *
- * @property integer $polarIndex Default: 0
- *    
- *
- * @property integer $startAngle Default: 90
- *    
- *
- * @property boolean $clockwise Default: true
- *    
- *
- * @property string $type Default: 'category'
- *    
- *
  * @property boolean|array $boundaryGap
  *    
  *
@@ -33,28 +21,10 @@ use beyong\echarts\Property;
  * @property integer|string|callable $max
  *    
  *
- * @property boolean $scale Default: false
- *    
- *
- * @property integer $splitNumber Default: 5
- *    
- *
- * @property integer $minInterval Default: 0
- *    
- *
  * @property integer $maxInterval
  *    
  *
  * @property integer $interval
- *    
- *
- * @property integer $logBase Default: 10
- *    
- *
- * @property boolean $silent Default: false
- *    
- *
- * @property boolean $triggerEvent Default: false
  *    
  *
  * @property array $axisLine
@@ -82,12 +52,6 @@ use beyong\echarts\Property;
  *    
  *
  * @property array $axisPointer
- *    
- *
- * @property integer $zlevel Default: 0
- *    
- *
- * @property integer $z Default: 0
  *    
  *
  * 

@@ -1,6 +1,6 @@
 <?php
 /**
- * Created by php-echarts AutoGenerate.
+ * Created by php-echarts library.
  * @author: cattong <aronter@gmail.com>
  */
 
@@ -9,9 +9,6 @@ namespace beyong\echarts\charts\graph;
 use beyong\echarts\Property;
 
 /**
- * @property boolean $silent Default: false
- *    
- *
  * @property array $label
  *    
  *
@@ -25,30 +22,6 @@ use beyong\echarts\Property;
  *    
  *
  * @property markarea\Data $data
- *    
- *
- * @property boolean $animation Default: false
- *    
- *
- * @property integer $animationThreshold Default: 2000
- *    
- *
- * @property integer|callable $animationDuration Default: 1000
- *    
- *
- * @property string $animationEasing Default: 'cubicOut'
- *    
- *
- * @property integer|callable $animationDelay Default: 0
- *    
- *
- * @property integer|callable $animationDurationUpdate Default: 300
- *    
- *
- * @property string $animationEasingUpdate Default: 'cubicInOut'
- *    
- *
- * @property integer|callable $animationDelayUpdate Default: 0
  *    
  *
  * 

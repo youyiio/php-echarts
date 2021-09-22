@@ -1,6 +1,6 @@
 <?php
 /**
- * Created by php-echarts AutoGenerate.
+ * Created by php-echarts library.
  * @author: cattong <aronter@gmail.com>
  */
 
@@ -9,31 +9,10 @@ namespace beyong\echarts\charts\lines;
 use beyong\echarts\Property;
 
 /**
- * @property boolean $show Default: false
- *    
- *
- * @property integer $period Default: 4
- *    
- *
  * @property integer|callable $delay
  *    
  *
- * @property integer $constantSpeed Default: 0
- *    
- *
- * @property string $symbol Default: 'circle'
- *    
- *
- * @property array|integer $symbolSize Default: 3
- *    
- *
  * @property string $color
- *    
- *
- * @property double $trailLength Default: '0.2'
- *    
- *
- * @property boolean $loop Default: true
  *    
  *
  * 

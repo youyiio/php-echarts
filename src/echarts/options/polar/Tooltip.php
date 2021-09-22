@@ -1,6 +1,6 @@
 <?php
 /**
- * Created by php-echarts AutoGenerate.
+ * Created by php-echarts library.
  * @author: cattong <aronter@gmail.com>
  */
 
@@ -9,12 +9,6 @@ namespace beyong\echarts\options\polar;
 use beyong\echarts\Property;
 
 /**
- * @property boolean $show Default: true
- *    
- *
- * @property string $trigger Default: 'item'
- *    
- *
  * @property array $axisPointer
  *    
  *
@@ -22,18 +16,6 @@ use beyong\echarts\Property;
  *    
  *
  * @property string|callable $formatter
- *    
- *
- * @property string $backgroundColor Default: 'rgba(50,50,50,0.7)'
- *    
- *
- * @property string $borderColor Default: '#333'
- *    
- *
- * @property integer $borderWidth Default: 0
- *    
- *
- * @property integer $padding Default: 5
  *    
  *
  * @property array $textStyle

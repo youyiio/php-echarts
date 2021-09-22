@@ -18,4 +18,10 @@ abstract class Engine
     {
         return get_class($this);
     }
+
+    public function addExtraScript($file, $dist = null)
+    {
+        !$dist && $dist = $this->dist;
+        $this->extraScript[$file] = $dist;
+    }
 }

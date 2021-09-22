@@ -1,6 +1,6 @@
 <?php
 /**
- * Created by php-echarts AutoGenerate.
+ * Created by php-echarts library.
  * @author: cattong <aronter@gmail.com>
  */
 
@@ -9,18 +9,6 @@ namespace beyong\echarts\charts\pie;
 use beyong\echarts\Property;
 
 /**
- * @property boolean $scale Default: true
- *    
- *
- * @property integer $scaleSize Default: 10
- *    
- *
- * @property string $focus Default: 'none'
- *    
- *
- * @property string $blurScope Default: 'coordinateSystem'
- *    
- *
  * @property array $label
  *    
  *

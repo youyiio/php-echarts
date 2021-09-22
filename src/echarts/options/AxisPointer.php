@@ -1,6 +1,6 @@
 <?php
 /**
- * Created by php-echarts AutoGenerate.
+ * Created by php-echarts library.
  * @author: cattong <aronter@gmail.com>
  */
 
@@ -10,12 +10,6 @@ use beyong\echarts\Property;
 
 /**
  * @property string $id
- *    
- *
- * @property boolean $show Default: false
- *    
- *
- * @property string $type Default: 'line'
  *    
  *
  * @property boolean $snap
@@ -33,9 +27,6 @@ use beyong\echarts\Property;
  * @property array $shadowStyle
  *    
  *
- * @property boolean $triggerTooltip Default: true
- *    
- *
  * @property integer $value
  *    
  *
@@ -46,9 +37,6 @@ use beyong\echarts\Property;
  *    
  *
  * @property array $link
- *    
- *
- * @property string $triggerOn Default: 'mousemove|click'
  *    
  *
  * 

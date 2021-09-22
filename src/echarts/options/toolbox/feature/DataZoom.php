@@ -1,6 +1,6 @@
 <?php
 /**
- * Created by php-echarts AutoGenerate.
+ * Created by php-echarts library.
  * @author: cattong <aronter@gmail.com>
  */
 
@@ -9,9 +9,6 @@ namespace beyong\echarts\options\toolbox\feature;
 use beyong\echarts\Property;
 
 /**
- * @property boolean $show Default: true
- *    
- *
  * @property array $title
  *    
  *
@@ -22,9 +19,6 @@ use beyong\echarts\Property;
  *    
  *
  * @property datazoom\Emphasis $emphasis
- *    
- *
- * @property string $filterMode Default: 'filter'
  *    
  *
  * @property integer|array|boolean $xAxisIndex

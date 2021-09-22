@@ -1,4 +1,9 @@
 <?php
+/**
+ * 测试准备,php-echarts根目录下
+ * > composer update
+ * > php example\line.php
+ */
 header('Content-Type: text/html; charset=utf-8');
 if (is_file('vendor/autoload.php')) {
     require('vendor/autoload.php');
@@ -21,6 +26,8 @@ $option->yAxis([]);
 
 $chart = new Line();
 $chart["data"] = [5, 20, 36, 10, 10, 20];
+$chart->smooth = true;
+
 $option->series([$chart]);
 
 $echarts->option($option);

@@ -1,6 +1,6 @@
 <?php
 /**
- * Created by php-echarts AutoGenerate.
+ * Created by php-echarts library.
  * @author: cattong <aronter@gmail.com>
  */
 
@@ -12,88 +12,16 @@ use beyong\echarts\Property;
  * @property string $id
  *    
  *
- * @property boolean $show Default: true
- *    
- *
- * @property string $text Default: ''
- *    
- *
- * @property string $link Default: ''
- *    
- *
- * @property string $target Default: 'blank'
- *    
- *
  * @property array $textStyle
  *    
  *
- * @property string $subtext Default: ''
- *    
- *
- * @property string $sublink Default: ''
- *    
- *
- * @property string $subtarget Default: 'blank'
- *    
- *
  * @property array $subtextStyle
- *    
- *
- * @property string $textAlign Default: 'auto'
- *    
- *
- * @property string $textVerticalAlign Default: 'auto'
- *    
- *
- * @property boolean $triggerEvent Default: false
- *    
- *
- * @property integer|array $padding Default: 5
- *    
- *
- * @property integer $itemGap Default: 10
- *    
- *
- * @property integer $zlevel Default: 0
- *    
- *
- * @property integer $z Default: 2
- *    
- *
- * @property string|integer $left Default: 'auto'
- *    
- *
- * @property string|integer $top Default: 'auto'
- *    
- *
- * @property string|integer $right Default: 'auto'
- *    
- *
- * @property string|integer $bottom Default: 'auto'
- *    
- *
- * @property string $backgroundColor Default: 'transparent'
- *    
- *
- * @property string $borderColor Default: '#ccc'
- *    
- *
- * @property integer $borderWidth Default: 0
- *    
- *
- * @property integer|array $borderRadius Default: 0
  *    
  *
  * @property integer $shadowBlur
  *    
  *
  * @property string $shadowColor
- *    
- *
- * @property integer $shadowOffsetX Default: 0
- *    
- *
- * @property integer $shadowOffsetY Default: 0
  *    
  *
  * <p>标题组件，包含主标题和副标题。</p>

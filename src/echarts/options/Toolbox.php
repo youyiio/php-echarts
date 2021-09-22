@@ -1,6 +1,6 @@
 <?php
 /**
- * Created by php-echarts AutoGenerate.
+ * Created by php-echarts library.
  * @author: cattong <aronter@gmail.com>
  */
 
@@ -12,21 +12,6 @@ use beyong\echarts\Property;
  * @property string $id
  *    
  *
- * @property boolean $show Default: true
- *    
- *
- * @property string $orient Default: 'horizontal'
- *    
- *
- * @property integer $itemSize Default: 15
- *    
- *
- * @property integer $itemGap Default: 10
- *    
- *
- * @property boolean $showTitle Default: true
- *    
- *
  * @property toolbox\Feature $feature
  *    
  *
@@ -34,30 +19,6 @@ use beyong\echarts\Property;
  *    
  *
  * @property toolbox\Emphasis $emphasis
- *    
- *
- * @property integer $zlevel Default: 0
- *    
- *
- * @property integer $z Default: 2
- *    
- *
- * @property string|integer $left Default: 'auto'
- *    
- *
- * @property string|integer $top Default: 'auto'
- *    
- *
- * @property string|integer $right Default: 'auto'
- *    
- *
- * @property string|integer $bottom Default: 'auto'
- *    
- *
- * @property string|integer $width Default: 'auto'
- *    
- *
- * @property string|integer $height Default: 'auto'
  *    
  *
  * @property array $tooltip
