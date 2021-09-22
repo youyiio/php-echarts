@@ -8,9 +8,8 @@
 namespace beyong\echarts\render;
 
 use Nesk\Puphpeteer\Puppeteer;
-use Nesk\Rialto\Data\JsFunction;
 
-class ImageEngine extends Engine
+class PdfEngine extends Engine
 {
 
     public $method = array();
@@ -116,7 +115,7 @@ HTML;
         $htmlFile = $response;
 
         $outputFile = $this->outputPath . '/' . $this->outputName;
-        $this->_renderJpg($htmlFile, $outputFile);
+        $this->_renderFile($htmlFile, $outputFile);
 
         //控制台运行
         if (substr(PHP_SAPI_NAME(), 0, 3) == 'cli') {
@@ -135,7 +134,7 @@ HTML;
 
     
     
-    private function _renderJpg($htmlFile, $outputFile)
+    private function _renderFile($htmlFile, $outputFile)
     {
         
         if (!\Composer\InstalledVersions::isInstalled('nesk/puphpeteer')) {
@@ -152,7 +151,7 @@ HTML;
         //echarts有动画时，导致只截图一部分
         sleep(2);
 
-        $page->screenshot(['path' => $outputFile]);
+        $page->pdf(['path' => $outputFile]);
     }
 
 

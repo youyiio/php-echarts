@@ -8,6 +8,11 @@ composer.lock
 vendor/*
 thinkphp
 
+# nodejs
+package.json
+package-lock.json
+node_modules
+
 # my project
 composer.lock
 examples/log
