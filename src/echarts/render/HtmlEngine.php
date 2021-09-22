@@ -11,34 +11,42 @@ class HtmlEngine extends Engine
 {
 
     public $method = array();
-    public $renderScript = true;
     
-    public $minify = true; // Whether or not load minify js file
-    public $extraScript = array();
-    public $jsVar = '';
-    public $scripts = [];
-    public $prefix = 'chart_';
 
     public function render($id, $option, $theme = null, $attribute=[], $events=[])
     {
         $attribute = $this->_renderAttribute($attribute);
         is_null($theme) && $theme = 'null';
 
-        $js = '';
-        if ($this->renderScript) {
-            $src = Engine::$dist . '/echarts' . ($this->distType ? '.' . $this->distType : '') . ($this->minify ? '.min' : '') . '.js';
+        $responseJs = '';
+        
+        $extraScript = $this->extraScript;
+        if (isset($extraScript["echarts"]) 
+            || isset($extraScript["echarts.js"])
+            || isset($extraScript["echarts.min.js"])) {
+            $echartsSrc = isset($extraScript["echarts"]) ? $extraScript["echarts"] : 
+                (isset($extraScript["echarts.js"]) ? $extraScript["echarts.js"] : $extraScript["echarts.min.js"]);
 
-            $this->_renderScript($src, $js);
+            $responseJs .= $this->_renderScript($echartsSrc);
 
-            if($this->extraScript){
-                foreach($this->extraScript as $k => $v){
-                    $src = $v . '/' . $k;
-                    $this->_renderScript($src, $js);
-                }
+            unset($extraScript["echarts"]);
+            unset($extraScript["echartsjs"]);
+            unset($extraScript["echarts.min.js"]);
+        } else {
+            $echartsSrc = Engine::$dist . '/echarts' . ($this->distType ? '.' . $this->distType : '') . ($this->minify ? '.min' : '') . '.js';
+            $responseJs .= $this->_renderScript($echartsSrc);
+        }
+        
+
+        if ($extraScript) {
+            foreach($extraScript as $k => $v) {
+                $src = $v . '/' . $k;
+                $responseJs .= $this->_renderScript($src);
             }
         }
+        
 
-        $jsVar = $this->jsVar;
+        $echartsJsVar = $this->echartsJsVar;
 
         $response = '';
         if (version_compare(Engine::$version, '3.0.0') < 0) {
@@ -50,7 +58,7 @@ class HtmlEngine extends Engine
 //**************多行文本输出 start            
 <<<HTML
 <div id="$id" $attribute></div>
-$js
+$responseJs
 <script type="text/javascript">
     require.config({
         paths: {
@@ -73,10 +81,10 @@ HTML;
 
         } else {
             $eventsHtml = '';
-            $prefix = $this->prefix;
+
             if ($events) {
                 foreach ($events as $event => $call) {
-                    $eventsHtml .= $prefix . $jsVar . '.on(\'' . $event . '\', function (params) {' . $call . '});';
+                    $eventsHtml .= $echartsJsVar . '.on(\'' . $event . '\', function (params) {' . $call . '});';
                 }
             }
             $option = $this->jsonEncode($option);
@@ -86,10 +94,10 @@ HTML;
 //**************多行文本输出 start            
 <<<HTML
 <div id="$id" $attribute></div>
-$js
+$responseJs
 <script type="text/javascript">
-    var $prefix$jsVar = echarts.init(document.getElementById('$id'), '$theme');
-    $prefix$jsVar.setOption($option);$eventsHtml
+    var $echartsJsVar = echarts.init(document.getElementById('$id'), '$theme');
+    $echartsJsVar.setOption($option);$eventsHtml
 </script>
 HTML;
 //**************多行文本输出 end
@@ -138,56 +146,6 @@ HTML;
             $option = str_replace(array_keys($this->method), array_values($this->method), $option);
         }
         return $option;
-    }
-
-    private function _renderScript($src, &$js)
-    {
-        if (!isset($this->scripts[$src])) {
-            $js .= '<script type="text/javascript" src="' . $src . '"></script>';
-            $this->scripts[$src] = true;
-        }
-    }
-
-    private function _require($option)
-    {
-        $requireString = "'echarts',";
-        if (isset($option['series'])) {
-            foreach ($option['series'] as $v) {
-                if (isset($v['type'])) {
-                    $requireString .= "'echarts/chart/" . $v['type'] . "',";
-                }
-            }
-
-            $requireString = rtrim($requireString, ',');
-        }
-
-        return $requireString;
-    }
-
-    private function _renderAttribute(array $attribute = array())
-    {
-        $attributeString = '';
-
-        if (!isset($attribute['style'])) {
-            $attribute['style'] = 'height:400px';
-        }
-
-        foreach ($attribute as $k => $v) {
-            $attributeString .= " $k=\"" . $this->_h($v) . '"';
-        }
-
-        return $attributeString;
-    }
-
-    private function _h($string)
-    {
-        return htmlspecialchars($string, ENT_QUOTES, 'utf-8');
-    }
-
-    public function addExtraScript($file, $dist = null)
-    {
-        !$dist && $dist = $this->dist;
-        $this->extraScript[$file] = $dist;
     }
 
 }

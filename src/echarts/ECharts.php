@@ -49,7 +49,8 @@ class ECharts //extends Property
     private $optionObj; //echarts option;
 
     public $_events = [];
-    protected $jsVar;
+
+    protected $echartsJsVar; //ECharts实例的js变量名
 
     /**
      * 私有构造函数
@@ -76,7 +77,7 @@ class ECharts //extends Property
         }
         $this->engine = $engine;
 
-        $this->setJsVar();
+        $this->setEchartsJsVar();
     }
 
     //渲染输出
@@ -88,7 +89,7 @@ class ECharts //extends Property
     public function addExtraScript($file, $dist = null)
     {
         !$dist && $dist = $this->dist;
-        $this->engine->extraScript[$file] = $dist;
+        $this->engine->addExtraScript($file, $dist);
     }
 
     public function on($event, $callback)
@@ -96,20 +97,22 @@ class ECharts //extends Property
         $this->_events[$event] = $callback;
     }
 
-    public function setJsVar($name = null)
+    //指定ECharts实例的js变量名
+    public function setEChartsJsVar($name = null)
     {
         if (!$name || !is_string($name)) {
-            $this->engine->jsVar = uniqid();
+            $this->engine->echartsJsVar = 'php_echarts_' . uniqid();
         } else{
-            $this->engine->jsVar = $name;
+            $this->engine->echartsJsVar = $name;
         }
 
-        $this->jsVar = $this->engine->jsVar;
+        $this->echartsJsVar = $this->engine->echartsJsVar;
     }
-
-    public function getJsVar($full = false)
+ 
+    //获取ECharts实例的js变量名
+    public function getEChartsJsVar()
     {
-        return $full ? 'php_echarts_' . $this->jsVar : $this->jsVar;
+        return $this->echartsJsVar;
     }
 
     //============option及相关属性设置================================================
