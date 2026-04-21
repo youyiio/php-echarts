@@ -24,12 +24,12 @@ class Property implements \ArrayAccess, \JsonSerializable
     }
 
     //ArrayAccess4个接口实现
-    public function offsetExists($offset)
+    public function offsetExists($offset): bool
     {
         return isset($this->_options[$offset]);
     }
 
-    public function offsetGet($offset)
+    public function offsetGet($offset): mixed
     {
         if (!$this->offsetExists($offset))
             $this->_options[$offset] = new self;
@@ -37,21 +37,21 @@ class Property implements \ArrayAccess, \JsonSerializable
         return $this->_options[$offset];
     }
 
-    public function offsetSet($offset, $value)
+    public function offsetSet($offset, $value): void
     {
         if (is_null($offset))
-            return $this->_options[] = $value;
+            $this->_options[] = $value;
         else
-            return $this->_options[$offset] = $value;
+            $this->_options[$offset] = $value;
     }
 
-    public function offsetUnset($offset)
+    public function offsetUnset($offset): void
     {
         unset($this->_options[$offset]);
     }
 
     //JsonSerializable的1个接口实现
-    public function jsonSerialize()
+    public function jsonSerialize(): mixed
     {
         if (count($this->_options) > 1) {
             unset($this->_options["_"]);
