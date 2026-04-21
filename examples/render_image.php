@@ -2,7 +2,7 @@
 /**
  * 测试准备,php-echarts根目录下
  * > composer update
- * > php example\render_image.php
+ * > php examples\render_image.php
  * 
  * composer require nesk/puphpeteer
  * npm install @nesk/puphpeteer

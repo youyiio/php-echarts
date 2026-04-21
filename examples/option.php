@@ -2,7 +2,7 @@
 /**
  * 测试准备,php-echarts根目录下
  * > composer update
- * > php example\simple.php
+ * > php examples\simple.php
  */
 header('Content-Type: text/html; charset=utf-8');
 if (is_file('vendor/autoload.php')) {

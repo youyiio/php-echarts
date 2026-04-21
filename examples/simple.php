@@ -2,7 +2,7 @@
 /**
  * 测试准备,php-echarts根目录下
  * > composer update
- * > php example\simple.php
+ * > php examples\simple.php
  */
 header('Content-Type: text/html; charset=utf-8');
 if (is_file('vendor/autoload.php')) {
@@ -22,7 +22,8 @@ $echarts = ECharts::init("#myChart");
 
 $option = new Option();
 $title = new Title();
-$title->text = 'ECharts 入门示例@@';
+$title->text = 'ECharts 5.0 入门示例';
+$title->left = 'center';
 $option->title($title);
 $option->xAxis(["data" => ['衬衫', '羊毛衫', '雪纺衫', '裤子', '高跟鞋', '袜子']]);
 $option->yAxis([]);

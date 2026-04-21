@@ -1,9 +1,21 @@
 # php-echarts
 
-**一款支持Apache EChart5.0+图表的php开发库** 优先ThinkPHP5/6的开发及测试。
+**一款支持Apache EChart5.0+图表的php开发库** 优先ThinkPHP5/6、Laravel的集成开发及测试。
 
 Apache EChart5.0已经最新发布，在视觉效果、动画效果和大数据展示方面已经远超之前的版本；
 故不考虑EChart5.0之前版本的兼容问题；建议直接尝试5.0+
+
+[github地址](https://github.com/youyiio/php-echarts)
+
+## 特性
+
+* 简洁的 API 设计，与echarts.js前端高度一致，支持链式调用；
+* 囊括了 30+ 种常见图表及3D图标，提供图片\pdf格式快速导出；
+* 可轻松集成至 Thinkphp，Lavarel 等主流 Web 框架;
+* 高度灵活的配置项，可轻松搭配出精美的图表;
+* 详细的文档和示例，帮助开发者更快的上手项目;
+* ECharts5.0+完美支持，可以流畅的运行在 PC 和移动设备上，兼容当前绝大部分浏览器；
+* ECharts5.0+能够展现千万级的数据量，支持原生百度地图，为地理数据可视化提供强有力的支持；
 
 
 ## 目录 

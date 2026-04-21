@@ -2,7 +2,7 @@
 /**
  * 测试准备,php-echarts根目录下
  * > composer update
- * > php example\render_pdf.php
+ * > php examples\render_pdf.php
  * 
  * composer require nesk/puphpeteer
  * npm install @nesk/puphpeteer
@@ -31,7 +31,7 @@ $engine->setOutputFile(__DIR__ . '/log/render.pdf');
 $echarts->use($engine);
 
 $option = new Option();
-$option->title(['text' => 'ECharts 入门示例', 'x' => 'center', 'textAlign' => 'left']);
+$option->title(['text' => 'ECharts 入门示例', 'left' => 'center']);
 $option->xAxis(["data" => 
     ['衬衫', '羊毛衫', '雪纺衫', '裤子', '高跟鞋', '袜子']
 ]);

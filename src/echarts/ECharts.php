@@ -77,7 +77,7 @@ class ECharts //extends Property
         }
         $this->engine = $engine;
 
-        $this->setEchartsJsVar();
+        $this->setEChartsJsVar();
     }
 
     //渲染输出
